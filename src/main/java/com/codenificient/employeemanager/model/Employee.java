@@ -56,7 +56,7 @@ public class Employee implements Serializable {
         this.jobTitle = jobTitle;
     }
 
-    public String setPhone() {
+    public String getPhone() {
         return  phone;
     }
     public void setPhone(String phone) {
